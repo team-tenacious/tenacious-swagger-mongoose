@@ -1,0 +1,41 @@
+{
+  "name": "tenacious-swagger-mongoose",
+  "version": "1.0.0",
+  "description": "Generate mongoose schemas and models from swagger documents, forked from swagger-mongoose",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "async": "^2.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mockgoose": "^7.0.0",
+    "mongoose": "^4.8.6"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.8.6"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonguest/swagger-mongoose"
+  },
+  "keywords": [
+    "swagger",
+    "mongoose",
+    "mongo",
+    "schema"
+  ],
+  "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/simonguest/swagger-mongoose/issues"
+  },
+  "homepage": "https://github.com/simonguest/swagger-mongoose"
+}
